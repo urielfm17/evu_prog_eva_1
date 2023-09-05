@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="frias"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 05:49:02 p. m."/>
+        <attribute name="created" value="ZnJpYXM7VVJJRUw7MjAyMy0wOS0wNTswNTowOTo0MiBwLiBtLjsyMzkx"/>
+        <attribute name="edited" value="ZnJpYXM7VVJJRUw7MjAyMy0wOS0wNTswNTo0OTowMiBwLiBtLjsxOzI0OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <declare name="direccion" type="String" array="False" size=""/>
+            <declare name="sangre" type="String" array="False" size=""/>
+            <declare name="promedio" type="Real" array="False" size=""/>
+            <declare name="preparatoria" type="String" array="False" size=""/>
+            <output expression="&quot;captura sus apellidos&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="apellidos" newline="True"/>
+            <output expression="&quot;captura tu nombre&quot;" newline="True"/>
+            <input variable="nombre"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="&quot;captura tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="edad" newline="True"/>
+            <output expression="&quot;captura tu direccion&quot;" newline="True"/>
+            <input variable="direccion"/>
+            <output expression="direccion" newline="True"/>
+            <output expression="&quot;captura tu tipo de sangre&quot;" newline="True"/>
+            <input variable="sangre"/>
+            <output expression="sangre" newline="True"/>
+            <output expression="&quot;captura tu promedio&quot;" newline="True"/>
+            <input variable="promedio"/>
+            <output expression="promedio" newline="True"/>
+            <output expression="&quot;captura tu preparatoria de origen&quot;" newline="True"/>
+            <input variable="preparatoria"/>
+            <output expression="preparatoria" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
