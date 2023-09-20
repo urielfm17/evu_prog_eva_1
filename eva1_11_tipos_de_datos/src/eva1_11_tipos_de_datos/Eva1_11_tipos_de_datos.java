@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author frias
+ * @author uriel 
  */
 public class Eva1_11_tipos_de_datos {
 
