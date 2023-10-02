@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Gabael
+ * @author frias
  */
 public class EXA1_EX1_P2 {
 
